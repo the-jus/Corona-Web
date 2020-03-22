@@ -21,7 +21,6 @@
 }
 .para a {
   color: #ddd;
-  text-decoration: cursive;
 }
 
 .i1 {
@@ -29,4 +28,14 @@
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+}
+
+.bagi2 {
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.list {
+  text-decoration: none;
 }
