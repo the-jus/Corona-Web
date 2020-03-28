@@ -2,13 +2,16 @@
   padding: 0%;
   margin: 0em;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 .bagi {
   height: 45px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   border: 40px;
+  position: -webkit-sticky;
 }
 .bagi h1 {
   height: 35px;
@@ -16,26 +19,82 @@
 
 .para {
   text-align: justify;
-  background-color: rgb(0, 0, 0);
-  color: aliceblue;
+  background-color: rgb(204, 202, 202);
+  color: rgb(0, 0, 0);
 }
 .para a {
-  color: #ddd;
+  color: rgb(0, 0, 0);
 }
 
+.para a:hover {
+  color: rgb(255, 0, 0);
+}
+
+/* .container {
+  width: 80%;
+  margin: auto;
+  overflow: visible;
+} */
+
+/* .column {
+  float: left;
+  width: 100%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+/* .row::after {
+  content: "";
+  clear: both;
+  display: inline-table;
+} */
+
+/* .image .i1 {
+  display: inline;
+  size: auto;
+} */
+
 .i1 {
-  display: block;
+  display: inline;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
 }
 
-.bagi2 {
+.ross {
   height: 20px;
   background-color: rgb(255, 255, 255);
   color: black;
 }
 
-.list {
-  text-decoration: none;
+#list li a {
+  color: black;
+}
+
+#list li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.bus {
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.car a {
+  color: white;
+  float: right;
+  padding-inline-end: 10%;
+}
+
+.scooter {
+  padding-inline-start: 10%;
+}
+
+.car li a:hover {
+  color: rgb(255, 0, 0);
 }
